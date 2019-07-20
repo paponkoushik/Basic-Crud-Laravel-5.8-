@@ -15,4 +15,9 @@ class StudentController extends Controller
     {
         return view('createStudent');
     }
+
+    public function store(Request $request, Response $response)
+    {
+        return $request->all();
+    }
 }
