@@ -11,7 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('/', 'StudentController')->name('home');
+Route::get('/', 'StudentController@index')->name('home');
+Route::get('create', 'StudentController@create')->name('create');
