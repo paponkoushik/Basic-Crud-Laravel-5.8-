@@ -8,21 +8,21 @@
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="inputEmail4">First Name</label>
-                        <input type="text" class="form-control" id="inputEmail4" placeholder="First Name">
+                        <input type="text" class="form-control" id="inputEmail4" name="first_name" placeholder="First Name">
                     </div>
                     <div class="form-group col-md-6">
                         <label for="inputPassword4">Last Name</label>
-                        <input type="text" class="form-control" id="inputPassword4" placeholder="Last Name">
+                        <input type="text" class="form-control" id="inputPassword4" name="last_name" placeholder="Last Name">
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="inputEmail4">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="xyz@email.com">
+                        <input type="email" class="form-control" id="inputEmail4" name="email" placeholder="xyz@email.com">
                     </div>
                     <div class="form-group col-md-6">
                         <label for="inputPassword4">Phone Number</label>
-                        <input type="text" class="form-control" id="inputPassword4" placeholder="01XXXXXXXXX">
+                        <input type="text" class="form-control" id="inputPassword4" name="phone" placeholder="01XXXXXXXXX">
                     </div>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
