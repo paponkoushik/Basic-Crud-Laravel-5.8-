@@ -8,7 +8,7 @@
     <div class="collapse navbar-collapse" id="basicExampleNav">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Add New</a>
+                <a class="nav-link" href="{{ route('create') }}">Add New</a>
             </li>
         </ul>
     </div>
